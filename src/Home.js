@@ -3,7 +3,8 @@ import './Home.css';
 function Home() {
   return (
     <>
-      <div>Hellow</div>
+      <div className='home-title'>MBTI Typedex</div>
+      <div className='home-subtitle'>Power of Friendship</div>
     </>
   );
 }
