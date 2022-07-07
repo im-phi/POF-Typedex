@@ -1,4 +1,4 @@
-// Fix binaries later
+// Fix binaries later - dir to prog done - start w abstract
 
 export const mbti = [
 	{
@@ -90,9 +90,9 @@ export const mbti = [
 			inferior: 'Ti', 
 		},
 		binaries: {
-			direct: true,
+			direct: false,
 			initiating: true,
-			progression: false,
+			progression: true,
 			abstract: false,
 			affiliative: true, 
 			systematic: true,
@@ -110,9 +110,9 @@ export const mbti = [
 			inferior: 'Ni', 
 		},
 		binaries: {
-			direct: true,
+			direct: false,
 			initiating: true,
-			progression: false,
+			progression: true,
 			abstract: false,
 			affiliative: true, 
 			systematic: true,
@@ -130,9 +130,9 @@ export const mbti = [
 			inferior: 'Si', 
 		},
 		binaries: {
-			direct: true,
+			direct: false,
 			initiating: true,
-			progression: false,
+			progression: true,
 			abstract: false,
 			affiliative: true, 
 			systematic: true,
@@ -150,9 +150,9 @@ export const mbti = [
 			inferior: 'Si', 
 		},
 		binaries: {
-			direct: true,
+			direct: false,
 			initiating: true,
-			progression: false,
+			progression: true,
 			abstract: false,
 			affiliative: true, 
 			systematic: true,
@@ -171,8 +171,8 @@ export const mbti = [
 		},
 		binaries: {
 			direct: true,
-			initiating: true,
-			progression: false,
+			initiating: false,
+			progression: true,
 			abstract: false,
 			affiliative: true, 
 			systematic: true,
@@ -211,8 +211,8 @@ export const mbti = [
 		},
 		binaries: {
 			direct: true,
-			initiating: true,
-			progression: false,
+			initiating: false,
+			progression: true,
 			abstract: false,
 			affiliative: true, 
 			systematic: true,
@@ -231,8 +231,8 @@ export const mbti = [
 		},
 		binaries: {
 			direct: true,
-			initiating: true,
-			progression: false,
+			initiating: false,
+			progression: true,
 			abstract: false,
 			affiliative: true, 
 			systematic: true,
@@ -250,8 +250,8 @@ export const mbti = [
 			inferior: 'Ne', 
 		},
 		binaries: {
-			direct: true,
-			initiating: true,
+			direct: false,
+			initiating: false,
 			progression: false,
 			abstract: false,
 			affiliative: true, 
@@ -270,8 +270,8 @@ export const mbti = [
 			inferior: 'Te', 
 		},
 		binaries: {
-			direct: true,
-			initiating: true,
+			direct: false,
+			initiating: false,
 			progression: false,
 			abstract: false,
 			affiliative: true, 
@@ -290,8 +290,8 @@ export const mbti = [
 			inferior: 'Fe', 
 		},
 		binaries: {
-			direct: true,
-			initiating: true,
+			direct: false,
+			initiating: false,
 			progression: false,
 			abstract: false,
 			affiliative: true, 
@@ -310,8 +310,8 @@ export const mbti = [
 			inferior: 'Te', 
 		},
 		binaries: {
-			direct: true,
-			initiating: true,
+			direct: false,
+			initiating: false,
 			progression: false,
 			abstract: false,
 			affiliative: true, 
