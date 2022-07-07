@@ -1,6 +1,6 @@
 // Fix binaries later
 
-export const types = [
+export const mbti = [
 	{
 		type: 'ESTJ',
 		stack: {
