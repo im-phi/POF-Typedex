@@ -8,7 +8,7 @@ export default class CardList extends Component {
 	  
 	return (
 	  <>
-	  	{assignedTypes.sort((a, b) => a.name.localeCompare(b.name)).map(person => (
+	  	{assignedTypes.sort((a, b) => a.typedAs.localeCompare(b.typedAs)).map(person => (
 			<Card pName={person.name} pType={person.typedAs} />
 		))}
 	  </>
