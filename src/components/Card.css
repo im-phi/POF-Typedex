@@ -1,0 +1,39 @@
+  .card-container {
+	/* border: 1px solid white; */
+	border-radius: 20px 30px 30px 40px;
+	box-shadow: inset 0px 0px 40px 40px #26292b;
+	filter: drop-shadow(2px 2px 5px black);
+  
+	position: relative;
+	display: grid;
+	margin-bottom: 1%;
+	
+	grid-template-columns: 7% 25% 10% 15%;
+	justify-content: center;
+	align-items: center;
+	grid-auto-rows: 2.75vw;
+  }
+  
+  /* Name and Type formatting */
+
+  .card-container .grid-item:not(:nth-child(1)) {
+	justify-self: center;
+  }
+  
+  .grid-item-person, .grid-item-type {
+	font-size: 1.55em;
+	font-weight: 300;
+  }
+
+  /* Stack formatting */
+
+  .grid-ego-stack, .grid-shadow-stack {
+	  display: flex;
+	  font-size: 1.15em;
+	  font-weight: 200;
+  }
+
+  .grid-ego-item, .grid-shadow-item {
+	  padding: 0 10%;
+  }
+  
