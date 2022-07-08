@@ -9,7 +9,13 @@ export default class CardList extends Component {
 	return (
 	  <>
 		<div className={this.props.className}>
-
+			<div className='card-list-labels'>
+				<div className='labels-grid'>Name</div>
+				<div className='labels-grid'>Type</div>
+				<div className='labels-grid'>Ego Stack</div>
+				<div className='labels-grid'>Shadow Stack</div>
+				<div className='labels-grid'>Quadra</div>
+			</div>
 			<div className='card-list'>
 				{assignedTypes.sort((a, b) => a.typedAs.localeCompare(b.typedAs)).map(person => (
 					<Card pName={person.name} pType={person.typedAs} />

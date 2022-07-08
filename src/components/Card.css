@@ -8,16 +8,44 @@
 	display: grid;
 	margin-bottom: 1%;
 
-	grid-template-columns: 0% 30% 0% 35% 5%;
+	grid-template-columns: 18% 16% 12% 25% 1%;
 	justify-content: center;
 	align-items: center;
 	grid-auto-rows: 2.75vw;
 }
 
+/* Label formatting */
+
+.card-list-labels {
+	display: grid;
+	grid-template-columns: 18% 16% 12% 25% 1%;
+	justify-content: center;
+	align-items: center;
+	padding: 0 0 1.5vw 0;
+	font-weight: 200;
+}
+
+.card-list-labels .labels-grid {
+	justify-self: start;
+}
+
+.card-list-labels .labels-grid:nth-child(5) {
+	justify-self: center;
+}
+
+/* Ego/Shadow stack padding to match function's padding */
+.card-list-labels .labels-grid:nth-child(4), .card-list-labels .labels-grid:nth-child(3) {
+	padding: 0 0 0 8px;
+}
+
 /* Name and Type formatting */
 
-.card-container .grid-item:not(:nth-child(1)) {
+.card-container .grid-item:nth-child(5) {
 	justify-self: center;
+}
+
+.card-container .grid-item:not(:nth-child(5)) {
+	justify-self: start;
 }
 
 .grid-item-person, .grid-item-type {
