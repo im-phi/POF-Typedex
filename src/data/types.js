@@ -1,5 +1,3 @@
-// Fix binaries later - dir to prog done - start w abstract
-
 export const mbti = [
 	{
 		type: 'ESTJ',
