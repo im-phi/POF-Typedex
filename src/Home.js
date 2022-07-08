@@ -7,10 +7,12 @@ import CardList from './components/CardList';
 function Home() {
   return (
     <>
-      <div className='home-title'>MBTI Typedex</div>
-      <div className='home-subtitle'>Power of Friendship</div>
-      <br></br>
-      <CardList />
+      <div className='header'>
+        <div className='home-title'>MBTI Typedex</div>
+        <div className='home-subtitle'>Power of Friendship</div>
+      </div>
+      {/* <div className='card-filters'></div> */}
+      <CardList className='card-content'/>
     </>
   );
 }

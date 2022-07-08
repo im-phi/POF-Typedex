@@ -11,9 +11,18 @@ export default class Card extends Component {
 	
 	return (
 	<>
-		{mbti.filter(mbti => mbti.type.includes(pType)).map(mbti => (
-			<div>{pName} - {pType} - {mbti.stack.hero} {mbti.stack.parent} {mbti.stack.child} {mbti.stack.inferior}</div>
-		))}
+		<div className='card-container'>
+			{mbti.filter(mbti => mbti.type.includes(pType)).map(mbti => (
+				<>
+					<div className='grid-item grid-item-person'>{pName}</div>
+					<div className='grid-item grid-item-type'>{pType}</div>
+					<div className='grid-item grid-item-stack grid-item-hero'>{mbti.stack.hero}</div>
+					<div className='grid-item grid-item-stack grid-item-parent'>{mbti.stack.parent}</div>
+					<div className='grid-item grid-item-stack grid-item-child'>{mbti.stack.child}</div>
+					<div className='grid-item grid-item-stack grid-item-inferior'>{mbti.stack.inferior}</div>
+				</>
+			))}
+		</div>
 	</>
 	)
   }

@@ -8,14 +8,21 @@ export default class CardList extends Component {
 	  
 	return (
 	  <>
-	  	{assignedTypes.sort((a, b) => a.typedAs.localeCompare(b.typedAs)).map(person => (
-			<Card pName={person.name} pType={person.typedAs} />
-		))}
+		<div className={this.props.className}>
+
+			<div className='card-list'>
+				{assignedTypes.sort((a, b) => a.typedAs.localeCompare(b.typedAs)).map(person => (
+					<Card pName={person.name} pType={person.typedAs} />
+				))}
+			</div>
+			
+		</div>
 	  </>
 	)
   }
 }
 CardList.propTypes = {
 	pName: PropTypes.string,
-	pType: PropTypes.string
+	pType: PropTypes.string,
+	className: PropTypes.string
 }
