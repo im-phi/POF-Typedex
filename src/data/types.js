@@ -42,11 +42,11 @@ export const mbti = [
 			initiating: true,
 			progression: false,
 			abstract: false,
-			affiliative: true, 
-			systematic: true,
-			spearbow: true,
-			firewind: false,
-			quadra: 'Philosopher'
+			affiliative: false,
+			systematic: false,
+			spearbow: false,
+			firewind: true,
+			quadra: 'Templar'
 		}
 	},
 	{
@@ -65,12 +65,12 @@ export const mbti = [
 			direct: true,
 			initiating: true,
 			progression: false,
-			abstract: false,
-			affiliative: true, 
+			abstract: true,
+			affiliative: false,
 			systematic: true,
 			spearbow: true,
-			firewind: false,
-			quadra: 'Philosopher'
+			firewind: true,
+			quadra: 'Wayfarer'
 		}
 	},
 	{
@@ -89,12 +89,12 @@ export const mbti = [
 			direct: true,
 			initiating: true,
 			progression: false,
-			abstract: false,
+			abstract: true,
 			affiliative: true, 
-			systematic: true,
-			spearbow: true,
-			firewind: false,
-			quadra: 'Philosopher'
+			systematic: false,
+			spearbow: false,
+			firewind: true,
+			quadra: 'Templar'
 		}
 	},
 	{
@@ -116,9 +116,9 @@ export const mbti = [
 			abstract: false,
 			affiliative: true, 
 			systematic: true,
-			spearbow: true,
+			spearbow: false,
 			firewind: false,
-			quadra: 'Philosopher'
+			quadra: 'Crusader'
 		}
 	},
 	{
@@ -138,11 +138,11 @@ export const mbti = [
 			initiating: true,
 			progression: true,
 			abstract: false,
-			affiliative: true, 
-			systematic: true,
+			affiliative: false,
+			systematic: false,
 			spearbow: true,
-			firewind: false,
-			quadra: 'Philosopher'
+			firewind: true,
+			quadra: 'Wayfarer'
 		}
 	},
 	{
@@ -161,12 +161,12 @@ export const mbti = [
 			direct: false,
 			initiating: true,
 			progression: true,
-			abstract: false,
-			affiliative: true, 
+			abstract: true,
+			affiliative: false,
 			systematic: true,
-			spearbow: true,
+			spearbow: false,
 			firewind: false,
-			quadra: 'Philosopher'
+			quadra: 'Crusader'
 		}
 	},
 	{
@@ -185,9 +185,9 @@ export const mbti = [
 			direct: false,
 			initiating: true,
 			progression: true,
-			abstract: false,
+			abstract: true,
 			affiliative: true, 
-			systematic: true,
+			systematic: false,
 			spearbow: true,
 			firewind: false,
 			quadra: 'Philosopher'
@@ -257,12 +257,12 @@ export const mbti = [
 			direct: true,
 			initiating: false,
 			progression: true,
-			abstract: false,
-			affiliative: true, 
+			abstract: true,
+			affiliative: false,
 			systematic: true,
 			spearbow: true,
-			firewind: false,
-			quadra: 'Philosopher'
+			firewind: true,
+			quadra: 'Wayfarer'
 		}
 	},
 	{
@@ -281,12 +281,12 @@ export const mbti = [
 			direct: true,
 			initiating: false,
 			progression: true,
-			abstract: false,
+			abstract: true,
 			affiliative: true, 
-			systematic: true,
-			spearbow: true,
-			firewind: false,
-			quadra: 'Philosopher'
+			systematic: false,
+			spearbow: false,
+			firewind: true,
+			quadra: 'Templar'
 		}
 	},
 	{
@@ -308,9 +308,9 @@ export const mbti = [
 			abstract: false,
 			affiliative: true, 
 			systematic: true,
-			spearbow: true,
+			spearbow: false,
 			firewind: false,
-			quadra: 'Philosopher'
+			quadra: 'Crusader'
 		}
 	},
 	{
@@ -330,11 +330,11 @@ export const mbti = [
 			initiating: false,
 			progression: false,
 			abstract: false,
-			affiliative: true, 
-			systematic: true,
+			affiliative: false,
+			systematic: false,
 			spearbow: true,
-			firewind: false,
-			quadra: 'Philosopher'
+			firewind: true,
+			quadra: 'Wayfarer'
 		}
 	},
 	{
@@ -353,12 +353,12 @@ export const mbti = [
 			direct: false,
 			initiating: false,
 			progression: false,
-			abstract: false,
-			affiliative: true, 
+			abstract: true,
+			affiliative: false,
 			systematic: true,
-			spearbow: true,
+			spearbow: false,
 			firewind: false,
-			quadra: 'Philosopher'
+			quadra: 'Crusader'
 		}
 	},
 	{
@@ -377,9 +377,9 @@ export const mbti = [
 			direct: false,
 			initiating: false,
 			progression: false,
-			abstract: false,
+			abstract: true,
 			affiliative: true, 
-			systematic: true,
+			systematic: false,
 			spearbow: true,
 			firewind: false,
 			quadra: 'Philosopher'

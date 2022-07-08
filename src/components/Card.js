@@ -17,7 +17,7 @@ export default class Card extends Component {
 				<>
 					<div className='grid-item grid-item-person'>{pName}</div>
 					<div className='grid-item grid-item-type'>{pType}</div>
-					<div className='grid-item grid-ego-stack'>						
+					<div className='grid-item grid-ego-stack'>
 						<div className='grid-ego-item grid-item-hero'>{mbti.stack.hero}</div>
 						<div className='grid-ego-item grid-item-parent'>{mbti.stack.parent}</div>
 						<div className='grid-ego-item grid-item-child'>{mbti.stack.child}</div>
@@ -29,6 +29,7 @@ export default class Card extends Component {
 						<div className='grid-shadow-item grid-item-trickster'>{mbti.stack.trickster}</div>
 						<div className='grid-shadow-item grid-item-demon'>{mbti.stack.demon}</div>
 					</div>
+					<div className='grid-item grid-item-quadra'>{mbti.binaries.quadra}</div>
 				</>
 			))}
 		</div>
