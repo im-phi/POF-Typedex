@@ -30,3 +30,9 @@ body {
   margin-right: auto;
   width: 70%;
 }
+
+@media (max-width: 425px) {
+	.card-content {
+    width: 85%;
+  }
+}

@@ -39,13 +39,12 @@
 	justify-content: center;
 	align-items: center;
 	grid-auto-rows: 2.75vw;
+
+	transition: all .2s ease; /* back to normal */
 }
   
 /* Hover Effects */
 
-.card-container {
-	transition: all .2s ease; /* back to normal */
-}
 .card-container:hover {
 	transform: scale(1.03);
 	transition: all .1s ease; /* zoom in */
@@ -81,4 +80,46 @@
 .grid-item-quadra {
 	font-size: 1em;
 	font-weight: 300;
+}
+
+/* ----------------- MEDIA QUERIES ----------------- */
+/* ----------------- MEDIA QUERIES ----------------- */
+/* ----------------- MEDIA QUERIES ----------------- */
+
+@media (max-width: 1801px) {
+	.card-container, .card-list-labels  {
+		grid-template-columns: 18% 16% 15% 22% 1%;
+	}
+}
+
+@media (max-width: 1475px) {
+	.card-container, .card-list-labels  {
+		grid-template-columns: 18% 16% 18% 20% 9%;
+	}
+	.card-container {
+		grid-auto-rows: 3vw;
+	}
+}
+
+@media (max-width: 425px) {
+	.card-container, .card-list-labels  {
+		grid-template-columns: 23% 16% 32% 15%;
+	}
+	.card-container {
+		grid-auto-rows: 10vw;
+		margin-bottom: 5%;
+		font-size: 2.5vw;
+	}
+	.card-list-labels {
+		font-size: 2vw;
+		margin-top: 12%;
+	}
+
+	.grid-ego-item {
+		padding: 0 1.25vw;
+	}
+	/* Ego/Shadow stack padding to match function's padding */
+	.card-list-labels .labels-grid:nth-child(3) {
+		padding: 0 0 0 1.25vw;
+	}
 }
