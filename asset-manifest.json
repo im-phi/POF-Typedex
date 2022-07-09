@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/POF-Typedex/static/css/main.4abed6d8.css",
+    "main.css": "/POF-Typedex/static/css/main.5740eb2f.css",
     "main.js": "/POF-Typedex/static/js/main.fba0027e.js",
     "static/js/787.458763c8.chunk.js": "/POF-Typedex/static/js/787.458763c8.chunk.js",
     "index.html": "/POF-Typedex/index.html",
-    "main.4abed6d8.css.map": "/POF-Typedex/static/css/main.4abed6d8.css.map",
+    "main.5740eb2f.css.map": "/POF-Typedex/static/css/main.5740eb2f.css.map",
     "main.fba0027e.js.map": "/POF-Typedex/static/js/main.fba0027e.js.map",
     "787.458763c8.chunk.js.map": "/POF-Typedex/static/js/787.458763c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4abed6d8.css",
+    "static/css/main.5740eb2f.css",
     "static/js/main.fba0027e.js"
   ]
 }
