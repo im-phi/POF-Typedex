@@ -15,7 +15,7 @@ const CardList = (props) => {
 				<div className='labels-grid'>Name</div>
 				<div className='labels-grid'>Type</div>
 				<div className='labels-grid'>Ego Stack</div>
-				{!isMobile && <div className='labels-grid'>Shadow Stack</div>}
+  {!isMobile && <div className='labels-grid'>Shadow Stack</div>}
 				<div className='labels-grid'>Quadra</div>
 			</div>
 			<div className='card-list'>
