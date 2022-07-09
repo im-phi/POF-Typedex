@@ -30,6 +30,9 @@ export default class Card extends Component {
 						<div className='grid-shadow-item grid-item-demon'>{mbti.stack.demon}</div>
 					</div>
 					<div className='grid-item grid-item-quadra'>{mbti.binaries.quadra}</div>
+
+
+					
 				</>
 			))}
 		</div>

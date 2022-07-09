@@ -40,6 +40,16 @@
 	align-items: center;
 	grid-auto-rows: 2.75vw;
 }
+  
+/* Hover Effects */
+
+.card-container {
+	transition: all .2s ease; /* back to normal */
+}
+.card-container:hover {
+	transform: scale(1.03);
+	transition: all .1s ease; /* zoom in */
+}
 
 /* Name and Type formatting */
 
@@ -71,14 +81,4 @@
 .grid-item-quadra {
 	font-size: 1em;
 	font-weight: 300;
-}
-  
-/* Hover Effect */
-
-.card-container {
-	transition: all .2s ease; /* back to normal */
-}
-.card-container:hover {
-	transform: scale(1.03);
-	transition: all .1s ease; /* zoom in */
 }
