@@ -26,15 +26,15 @@
 /* Card Content */
 
 .card-container {
+	border-radius: 30px 30px 30px 30px;
+	background-color: #26292b;
+	filter: drop-shadow(2px 2px 5px black);
+	
 	margin-bottom: 1.25%;
+	transition: all .2s ease; /* back to normal */
 }
 
 .card-grid-summary {
-	/* border: 1px solid white; */
-	border-radius: 30px 30px 30px 30px;
-	box-shadow: inset 0px 0px 40px 40px #26292b;
-	filter: drop-shadow(2px 2px 5px black);
-
 	position: relative;
 	display: grid;
 
@@ -42,13 +42,11 @@
 	justify-content: center;
 	align-items: center;
 	grid-auto-rows: 2.75vw;
-
-	transition: all .2s ease; /* back to normal */
 }
   
 /* Hover Effects */
 
-.card-grid-summary:hover {
+.card-container:hover {
 	transform: scale(1.03);
 	transition: all .1s ease; /* zoom in */
 }

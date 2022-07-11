@@ -38,6 +38,20 @@ const Card = (props) => {
 					</>
 				))}
 			</div>
+			<div className='card-items-hover'>
+				{mbti.filter(mbti => mbti.type.includes(pType)).map(mbti => (
+					<>
+
+					</>
+				))}
+			</div>
+			<div className='card-items-expanded'>
+				{mbti.filter(mbti => mbti.type.includes(pType)).map(mbti => (
+					<>
+
+					</>
+				))}
+			</div>
 		</div>
 	</>
 	);
