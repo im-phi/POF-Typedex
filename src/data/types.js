@@ -21,7 +21,9 @@ export const mbti = [
 			spearbow: true,
 			firewind: false,
 			quadra: 'Philosopher'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'ESTP',
@@ -45,7 +47,9 @@ export const mbti = [
 			spearbow: false,
 			firewind: true,
 			quadra: 'Templar'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'ENTJ',
@@ -69,7 +73,9 @@ export const mbti = [
 			spearbow: true,
 			firewind: true,
 			quadra: 'Wayfarer'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'ENFJ',
@@ -93,7 +99,9 @@ export const mbti = [
 			spearbow: false,
 			firewind: true,
 			quadra: 'Templar'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'ESFJ',
@@ -117,7 +125,9 @@ export const mbti = [
 			spearbow: false,
 			firewind: false,
 			quadra: 'Crusader'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'ESFP',
@@ -141,7 +151,9 @@ export const mbti = [
 			spearbow: true,
 			firewind: true,
 			quadra: 'Wayfarer'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'ENTP',
@@ -165,7 +177,9 @@ export const mbti = [
 			spearbow: false,
 			firewind: false,
 			quadra: 'Crusader'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'ENFP',
@@ -189,7 +203,9 @@ export const mbti = [
 			spearbow: true,
 			firewind: false,
 			quadra: 'Philosopher'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'ISTJ',
@@ -213,7 +229,9 @@ export const mbti = [
 			spearbow: true,
 			firewind: false,
 			quadra: 'Philosopher'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'ISTP',
@@ -237,7 +255,9 @@ export const mbti = [
 			spearbow: false,
 			firewind: true,
 			quadra: 'Templar'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'INTJ',
@@ -261,7 +281,9 @@ export const mbti = [
 			spearbow: true,
 			firewind: true,
 			quadra: 'Wayfarer'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'INFJ',
@@ -285,7 +307,9 @@ export const mbti = [
 			spearbow: false,
 			firewind: true,
 			quadra: 'Templar'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'ISFJ',
@@ -309,7 +333,9 @@ export const mbti = [
 			spearbow: false,
 			firewind: false,
 			quadra: 'Crusader'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'ISFP',
@@ -333,7 +359,9 @@ export const mbti = [
 			spearbow: true,
 			firewind: true,
 			quadra: 'Wayfarer'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'INTP',
@@ -357,7 +385,9 @@ export const mbti = [
 			spearbow: false,
 			firewind: false,
 			quadra: 'Crusader'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	{
 		type: 'INFP',
@@ -381,7 +411,9 @@ export const mbti = [
 			spearbow: true,
 			firewind: false,
 			quadra: 'Philosopher'
-		}
+		},
+		anima: '',
+		superego: '',
 	},
 	
 ]

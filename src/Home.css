@@ -31,6 +31,12 @@ body {
   width: 65%;
 }
 
+@media (max-width: 1350px) {
+	.card-content {
+    width: 75%;
+  }
+}
+
 @media (max-width: 1024px) {
 	.card-content {
     width: 85%;

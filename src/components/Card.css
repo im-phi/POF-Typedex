@@ -23,9 +23,13 @@
 	padding: 0 0 0 8px;
 }
 
-/* Card Content Grid */
+/* Card Content */
 
 .card-container {
+	margin-bottom: 1.25%;
+}
+
+.card-grid-summary {
 	/* border: 1px solid white; */
 	border-radius: 30px 30px 30px 30px;
 	box-shadow: inset 0px 0px 40px 40px #26292b;
@@ -33,7 +37,6 @@
 
 	position: relative;
 	display: grid;
-	margin-bottom: 1.25%;
 
 	grid-template-columns: 18% 16% 15% 20% 9%;
 	justify-content: center;
@@ -45,18 +48,18 @@
   
 /* Hover Effects */
 
-.card-container:hover {
+.card-grid-summary:hover {
 	transform: scale(1.03);
 	transition: all .1s ease; /* zoom in */
 }
 
 /* Name and Type formatting */
 
-.card-container .grid-item:nth-child(5) {
+.card-grid-summary .grid-item:nth-child(5) {
 	justify-self: center;
 }
 
-.card-container .grid-item:not(:nth-child(5)) {
+.card-grid-summary .grid-item:not(:nth-child(5)) {
 	justify-self: start;
 }
 
@@ -85,50 +88,61 @@
 /* ----------------- MEDIA QUERIES ----------------- */
 /* ----------------- MEDIA QUERIES ----------------- */
 /* ----------------- MEDIA QUERIES ----------------- */
+/* ----------------- MEDIA QUERIES ----------------- */
+/* ----------------- MEDIA QUERIES ----------------- */
 
 @media (max-width: 1650px) {
-	.card-container, .card-list-labels  {
+	.card-container {
+		margin-bottom: 2%;
+	}
+	.card-grid-summary, .card-list-labels  {
 		grid-template-columns: 18% 16% 18% 20% 9%;
 	}
-	.card-container {
+	.card-grid-summary {
 		grid-auto-rows: 3vw;
-		margin-bottom: 2%;
 		font-size: 1vw;
 	}
 }
 
+@media (max-width: 1350px) {
+	.card-grid-summary {
+		grid-auto-rows: 4vw;
+		font-size: 1.25vw;
+	}
+}
+
+
 @media (max-width: 1024px) {
-	
-	.card-container {
+	.card-grid-summary {
 		grid-auto-rows: 5vw;
-		margin-bottom: 2%;
 		font-size: 1.25vw;
 	}
 }
 
 @media (max-width: 768px) {
-	.card-container, .card-list-labels  {
-		grid-template-columns: 18% 16% 18% 20% 9%;
-	}
 	.card-container {
 		margin-bottom: 3%;
+	}
+	.card-grid-summary, .card-list-labels  {
+		grid-template-columns: 18% 16% 18% 20% 9%;
 	}
 }
 
 @media (max-width: 425px) {
-	.card-container, .card-list-labels  {
+	.card-container {
+		margin-bottom: 5%;
+	}
+	.card-grid-summary, .card-list-labels  {
 		grid-template-columns: 23% 16% 32% 15%;
 	}
-	.card-container {
+	.card-grid-summary {
 		grid-auto-rows: 10vw;
-		margin-bottom: 5%;
 		font-size: 2.5vw;
 	}
 	.card-list-labels {
 		font-size: 2vw;
 		margin-top: 12%;
 	}
-
 	.grid-ego-item {
 		padding: 0 1.25vw;
 	}
