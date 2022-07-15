@@ -31,7 +31,9 @@
 	filter: drop-shadow(2px 2px 5px black);
 	
 	margin-bottom: 1.25%;
-	transition: all .2s ease; /* back to normal */
+	/* transition: all .2s ease;  */
+	/* height: 5.45vh; */
+	height: var(--card-height);
 }
 
 .card-grid-summary {
@@ -46,10 +48,10 @@
   
 /* Hover Effects */
 
-.card-container:hover {
+/* .card-container:hover {
 	transform: scale(1.03);
-	transition: all .1s ease; /* zoom in */
-}
+	transition: all .1s ease; 
+} */
 
 /* Name and Type formatting */
 
